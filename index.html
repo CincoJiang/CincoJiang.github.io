@@ -1,10 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>CincoJhonnyHome</title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
 </head>
 <body>
-	Hello Cinco.Jiang!!!
+
+<div class="content">
+	<div class="wrapper">
+		<div class="light"><i></i></div>
+		<hr class="line-left">
+		<hr class="line-right">
+		<div class="main">
+			<h1 class="title">CincoJhonnyHome</h1>
+			<div class="year">
+				<h2><a href="#">2014年<i></i></a></h2>
+				<div class="list">
+					<ul>
+						<li class="cls highlight">
+							<p class="date">8月13日</p>
+							<p class="intro">流星划落 故事开始</p>
+							<p class="version">&nbsp;</p>
+							<div class="more">
+								<p>操场</p>
+								<p>圆月 轻乌云</p>
+							</div>
+						</li>
+						<li class="cls">
+							<p class="date">8月18日</p>
+							<p class="intro">CincoJhonnyHome OnLine</p>
+							<p class="version">&nbsp;</p>
+							<div class="more">
+								<p>天气：小雨</p>
+								<p>沙县 美味的混沌</p>
+							
+							</div>
+						</li>
+
+					
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(".main .year .list").each(function(e, target){
+	var $target=  $(target),
+	$ul = $target.find("ul");
+	$target.height($ul.outerHeight()), $ul.css("position", "absolute");
+}); 
+$(".main .year>h2>a").click(function(e){
+	e.preventDefault();
+	$(this).parents(".year").toggleClass("close");
+});
+</script>
+	
 </body>
 </html>
