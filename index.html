@@ -1,87 +1,203 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>CincoJhonnyHome</title>
+<title>Cinco && Jhonny</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" href="css/styles.css" rel="stylesheet" media="all" />
+ <script type="text/javascript" src="js/jquery.js"></script>
+        <script src="js/superfish.js" type="text/javascript"></script>
+        
+        
+    <script type="text/javascript">
+		jQuery(document).ready(function($){
 
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-
+/***** JQUERY MENU SLIDE EFFECT *****/							    
+if (jQuery().superfish) {
+		jQuery('ul.menu').superfish({
+			delay: 230,
+			animation: {opacity:'show', height:'show'},
+			speed: 'fast',
+			autoArrows: false,
+			dropShadows: false
+		}); 
+	
+	}	
+	
+	});  
+/***** END JQUERY MENU SLIDE EFFECT *****/	
+	</script>
 </head>
+
 <body>
 
+<div style="text-align:center;clear:both;">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div>
+<div id="menu-holder">
+       <div>
+<ul class="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">Cinco</a>
+	<ul>
+	<li><a href="#">个人简介</a></li>
+	<li><a href="#">自己日记</a></li>
+	<li><a href="#">想告诉Jhonny</a></li>
+	</ul>
+</li>
+<li><a href="#">Jhonny</a>
+	<ul>
+	<li><a href="#">个人简介</a></li>
+	<li><a href="#">自己日记</a></li>
+	<li><a href="#">想告诉Cinco</a></li>
+</ul>
+</li>
+
+</div>
+  <div id="corner-left">Corner left</div>
+  <div id="corner-right">Corner right</div>
+
 <div class="content">
-	<div class="wrapper">
-		<div class="light"><i></i></div>
-		<hr class="line-left">
-		<hr class="line-right">
-		<div class="main">
-			<h1 class="title">CincoJhonnyHome</h1>
-			<div class="year">
-				<h2><a href="#">2014年<i></i></a></h2>
-				<div class="list">
-					<ul>
-						<li class="cls">
-							<p class="date">8月21日 10:11</p>
-							<p class="intro">地点：图文</p>
-							<p class="version">&nbsp;</p>
-							<div class="more">
-								<p>天气：阳光</p>
-								<p>WL WJ JS WQ 宝龙KTV通宵</p>
-							</div>
-						</li>
-						<li class="cls">
-							<p class="date">8月19日 20:38</p>
-							<p class="intro">图文 大圆桌</p>
-							<p class="version">&nbsp;</p>
-							<div class="more">
-								<p>天气：小雨</p>
-								<p>给我带的中晚饭好好吃 有辣椒炒肉肉 太贴心了</p>
-								<p>晚上一起在图文敲键盘很开心</p>
-							</div>
-						</li>
-						<li class="cls">
-							<p class="date">8月18日</p>
-							<p class="intro">CincoJhonnyHome OnLine</p>
-							<p class="version">&nbsp;</p>
-							<div class="more">
-								<p>天气：小雨</p>
-								<p>沙县 美味的混沌</p>
-							
-							</div>
-						</li>
-						<li class="cls highlight">
-							<p class="date">8月13日</p>
-							<p class="intro">流星划落 故事开始</p>
-							<p class="version">&nbsp;</p>
-							<div class="more">
-								<p>操场</p>
-								<p>圆月 轻乌云</p>
-							</div>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
-			
-		</div>
-	</div>
+   <div class="content_t">
+   	<div class="arrow f_l arrow_t"></div>
+   	<div class="arrow f_r arrow_t"></div>
+    <div class="cont_wrap" id="pic_01" style="display:block">
+	   	<div class="bigpic">
+	   	   <img src="images/pic_01.jpg"></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.13</h3>
+	        <p>weather：good</p>
+	        <p>place：background</p>
+	        <p>people：cinco and jhonny</p>
+	        <p>memory：star</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_02" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src="images/pic_02.jpg"></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.18</h3>
+	        <p>weather：good</p>
+	        <p>place：libary</p>
+	        <p>people:cinco and jhonny</p>
+	        <p>memory：CincoJhonnyHome OnLine</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_03" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src="images/pic_03.jpg"></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.21</h3>
+	        <p>weather:good</p>
+	        <p>place：baolong KTV</p>
+	        <p>people：WL WJ JS WQ</p>
+	        <p>memory：singing</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_04" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src="images/pic_04.jpg"></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.22</h3>
+	        <p>weather：good</p>
+	        <p>place：mingyao</p>
+	        <p>people:cinco and jhonny</p>
+	        <p>memory：house</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_05" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src=""></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.26</h3>
+	        <p>weather：</p>
+	        <p>place：</p>
+	        <p>people：</p>
+	        <p>memory：</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_06" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src=""></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.27</h3>
+	        <p>weather：</p>
+	        <p>place：</p>
+	        <p>people：</p>
+	        <p>memory：</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_07" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src=""></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.28</h3>
+	        <p>weather：</p>
+	        <p>place：</p>
+	        <p>people：</p>
+	        <p>memory：</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_08" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src=""></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.29</h3>
+	        <p>weather：</p>
+	        <p>place：</p>
+	        <p>people：</p>
+	        <p>memory：</p>
+	   	</div>
+    </div>
+    <div class="cont_wrap" id="pic_09" style="display:none">
+	   	<div class="bigpic">
+	   	   <img src=""></img>	
+	   	</div>
+	   	<div class="bigword">
+	   		<h3>2014.08.30</h3>
+	        <p>weather：</p>
+	        <p>place：</p>
+	        <p>people：</p>
+	        <p>memory：</p>
+	   	</div>
+    </div>
+
+   </div>
+   <div class="content_b">
+   	<div class="arrow f_l"></div>
+   	<div class="arrow f_r"></div>
+   	<img src="" bigpic-id="pic_01"></img>
+   	<img src="" bigpic-id="pic_02"></img>
+   	<img src="" bigpic-id="pic_03"></img>
+   	<img src="" bigpic-id="pic_04"></img>
+   	<img src="" bigpic-id="pic_05"></img>
+   	<img src="" bigpic-id="pic_06"></img>
+   	<img src="" bigpic-id="pic_07"></img>
+   	<img src="" bigpic-id="pic_08"></img>
+    <img src="" bigpic-id="pic_09"></img>
+   </div>
 </div>
 
+</div>
+
+</div><!--end menu-holder-->
 
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript">
-$(".main .year .list").each(function(e, target){
-	var $target=  $(target),
-	$ul = $target.find("ul");
-	$target.height($ul.outerHeight()), $ul.css("position", "absolute");
-}); 
-$(".main .year>h2>a").click(function(e){
-	e.preventDefault();
-	$(this).parents(".year").toggleClass("close");
-});
+<script>
+	 $(".content_b img").hover(function(){
+    var picsmall=$(this).attr("bigpic-id");
+    $('.cont_wrap').hide();
+     $('#'+picsmall).show();
+    })
 </script>
-	
 </body>
 </html>
